@@ -12,15 +12,15 @@ After each posistion passes specific PNL%, entire position will be moved to brea
 If you just want to blindly open some position, or if any errors occur during TP/SL orders submission, default TP and SL orders will be<br>
 submitted in internal loop cycle for your convenience with default trade management follow up .<br>
 
- 1. Actual order entry from webhook source in Testnet (https://youtu.be/vQ3hkkFoEwA) . 
- 2. Order management demo in live account (https://www.youtube.com/watch?v=KCOpB7cqE-0) . 
+ 1. Actual order entry from webhook source in Testnet ([https://youtu.be/vQ3hkkFoEwA](https://youtu.be/vQ3hkkFoEwA )) . 
+ 2. Order management process in live account ([https://www.youtube.com/watch?v=KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0)) . 
 
 ##### Disclaimer: This project is for bug testing requests, extentions and features requests .
 
 Currently supported exchanges:
 
-- **Bybit** futures (https://bybit.com) 
-- **Bybit** futures Testnet(https://testnet.bybit.com)
+- **Bybit** futures ([https://bybit.com](https://www.bybit.com/en/)) 
+- **Bybit** futures Testnet([https://testnet.bybit.com](https://www.testnet.bybit.com/en/))
 
 ### INSTALLATION AND RUNNING ###
 
@@ -38,7 +38,7 @@ To get your server visible over the web you can install something like: <br>
  - [Ngrok](https://ngrok.com/download). <br> 
  Or some other kind of proxy.<br> 
 
-This essentually will bring you to miscoservices infrastructure that is managed by docker compose.<br>
+This essentually will bring you to miscoservices infrastructure that can be easily moved between hosting/cloud VPS providers and is managed by docker compose.<br>
 
 - All operations with stop and start , checking logs etc.. are standard for any docker container. <br>
 You can have unlimited number of intances inside single docker-compose file. <br>
@@ -85,7 +85,15 @@ Signals format is 100% compatible with Cornix Telegram bot (As far as I can see)
  "limit_price4": "0.5164"
 } <br>
 
+- **Close market**
 
+{ <br>
+ "symbol": "BELUSDT",
+ "direction": "LONG",
+ "action": "close market",
+ "close_perc": "100 or any"
+} 
+ 
 
 ### CONFIGURATION - API KEYS ###
 You can try to use my testnet instance or create you own either live or testnet as shown below in tgtrader.yml
