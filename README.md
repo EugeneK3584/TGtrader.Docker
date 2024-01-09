@@ -9,7 +9,7 @@ options to do that .<br><br>
 Risk/Money Management model in terms of Take profit and Stop loss points is supplied by signal source but it is also flexible as there <br>
 are at least 2 timeframes with 2 different types of market (flat / trending) <br> <br>
 After each posistion passes specific PNL%, entire position will be moved to break even(BE): SL price will be set to position entry price.<br>
-If you just want to blindly open some position, or if any errors occur during TP/SL orders submission, default TP and SL orders will be<br>
+If you just want to open some position without MM, or if any errors occur during TP/SL orders submission, default TP and SL orders will be<br>
 submitted in internal loop cycle for your convenience with default trade management follow up .<br><br>
 For further PNL tracking follow up received signals are stored locally in json format and can imported to database like MongoDB for further analysis.<br><br>
 
