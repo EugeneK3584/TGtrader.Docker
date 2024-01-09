@@ -48,6 +48,11 @@ This essentually will bring you to miscoservices infrastructure that can be easi
 You can have unlimited number of intances inside single docker-compose file. <br>
 
 ### SIGNAL SYNTAX ###
+
+Before setting live instance with the exchange your own signals can be tested with ([Postman](https://www.postman.com/downloads/)) <br>
+This tool is used by many Application testers that uses REST API to validate webhooks and url API endpoints etc<br>
+It can also be used for fast order submission in copy /paste mode - much faster than any given exchange front end <br>
+with lagging web interface
  
 Signals format is 100% compatible with Cornix Telegram bot (As far as I can see) <br>
 
