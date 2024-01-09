@@ -12,6 +12,9 @@ After each posistion passes specific PNL%, entire position will be moved to brea
 If you just want to open some position without MM, or if any errors occur during TP/SL orders submission, default TP and SL orders will be<br>
 submitted in internal loop cycle for your convenience with default trade management follow up .<br><br>
 For further PNL tracking follow up received signals are stored locally in json format and can imported to database like MongoDB for further analysis.<br><br>
+Bot will trade in opposite direction (flip) if it has position opened is similar direction and will not open just another plain market order. <br> 
+Risk management model I personally follow from my signals channels doesn't provide any averaging down or adding into position at this time <br>
+But you can add into existing position with sending market opder webhook while specifying [average down] instead of [market order] any time.
 
  1. Actual order entry from webhook source in Testnet ([https://www.youtube.com/watch?v=vQ3hkkFoEwA](https://www.youtube.com/watch?v=vQ3hkkFoEwA))
  2. Order management process in live account ([https://www.youtube.com/watch?v=KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0))
@@ -115,7 +118,6 @@ You can try to use my testnet instance or create you own either live or testnet 
 - With using multiple threads and flask in async mode - still facing performance bottlnecks shat shouldn't be there, need to check further
 - Migration to other exchanges.
 - Web interface .<br>
-- Bot will trade in opposite direction (flip) if it has position opened is similar direction and will not open just another plain market order. <br> Risk management model if follow from my signals channels source doesn't provide any averaging down or adding into position but you can add into existing position with supplying <average down> instead of <market order>
 - I was trying to implement WebSockets from ByBit but that caused IP banning problem for some reason and I didn't have time to investigate, That internal loop is a sort of a workaround
 - Telegram email /alerting implementation is in progress
 - Not sure if this will have same execution speed with CCXT
