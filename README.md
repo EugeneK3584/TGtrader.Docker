@@ -13,8 +13,8 @@ If you just want to open some position without MM, or if any errors occur during
 submitted in internal loop cycle for your convenience with default trade management follow up .<br><br>
 For further PNL tracking follow up received signals are stored locally in json format and can imported to database like MongoDB for further analysis.<br><br>
 
- 1. Actual order entry from webhook source in Testnet ([https://youtu.be/vQ3hkkFoEwA](https://youtu.be/vQ3hkkFoEwA )) . 
- 2. Order management process in live account ([https://www.youtube.com/watch?v=KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0)) . 
+ 1. Actual order entry from webhook source in Testnet [([https://www.youtube.com/watch?v=vQ3hkkFoEwA](https://www.youtube.com/watch?v=vQ3hkkFoEwA))](https://www.youtube.com/watch?v=vQ3hkkFoEwA)
+ 2. Order management process in live account [([https://www.youtube.com/watch?v=KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0))](https://www.youtube.com/watch?v=KCOpB7cqE-0) 
 
 ##### Disclaimer: This project is for bug testing requests, extentions and features requests .
 
