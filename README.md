@@ -1,16 +1,17 @@
 # TGtrader
 <br>
-TG Trader was deisgned with idea to replace chart operator with active trade management of tens or hundreds of positions simultaneously while receving json data from multiple sources such as Tradingview Alerts<br>
+TG Trader was deisgned with idea to replace chart operator with active trade management of tens or hundreds of positions simultaneously while receving json data from multiple sources such as Tradingview Alerts<br><br>
 Currrently only opening positions in one direction and flippening.Hedge mode is not currently supported.<br>
-Trailing orders are available on ByBit but not supported at this time, see TODO list.<br>
+Trailing orders are available on ByBit but not supported at this time, see TODO list.<br><br>
 Best way to run as docker container either localy or remotely with Docker Desktop/Server + Docker Compose plugin.<br>
 MS VS Code with needed plugins is a front end tool for container management for me at this time but there are also multiple <br>
-options to do that .<br>
+options to do that .<br><br>
 Risk/Money Management model in terms of Take profit and Stop loss points is supplied by signal source but it is also flexible as there <br>
-are at least 2 timeframes with 2 different types of market (flat / trending) <br> 
+are at least 2 timeframes with 2 different types of market (flat / trending) <br> <br>
 After each posistion passes specific PNL%, entire position will be moved to break even(BE): SL price will be set to position entry price.<br>
 If you just want to blindly open some position, or if any errors occur during TP/SL orders submission, default TP and SL orders will be<br>
-submitted in internal loop cycle for your convenience with default trade management follow up .<br>
+submitted in internal loop cycle for your convenience with default trade management follow up .<br><br>
+For further PNL tracking follow up received signals are stored locally in json format and can imported to database like MongoDB for further analysis.<br>
 
  1. Actual order entry from webhook source in Testnet ([https://youtu.be/vQ3hkkFoEwA](https://youtu.be/vQ3hkkFoEwA )) . 
  2. Order management process in live account ([https://www.youtube.com/watch?v=KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0)) . 
