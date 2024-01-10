@@ -18,11 +18,8 @@ But you can add into existing position with sending market opder webhook while s
 
  1. New order entry and flip from webhook source in Testnet with PostMan, here I'm using localhost instead of real hostname:<br>
  ([https://youtu.be/GJJcH7g-6BI](https://youtu.be/GJJcH7g-6BI))
-<br>  
  2. Order close with the same:<br>
- ([https://youtu.be/xlg5rbhLY98](https://youtu.be/xlg5rbhLY98))
-
- <br>  
+ ([https://youtu.be/xlg5rbhLY98](https://youtu.be/xlg5rbhLY98)) 
  3. Order management process in live account:<br>
  ([https://youtu.be/KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0))
 <br>
