@@ -14,10 +14,18 @@ submitted in internal loop cycle for your convenience with default trade managem
 For further PNL tracking follow up received signals are stored locally in json format and can imported to database like MongoDB for further analysis.<br><br>
 Bot will trade in opposite direction (flip) if it has position opened is similar direction and will not open just another plain market order. <br> 
 Risk management model I personally follow from my signals channels doesn't provide any averaging down or adding into position at this time <br>
-But you can add into existing position with sending market opder webhook while specifying [average down] instead of [market order] any time.
+But you can add into existing position with sending market opder webhook while specifying [average down] instead of [market order] any time.<br>
 
- 1. Actual order entry from webhook source in Testnet ([https://www.youtube.com/watch?v=vQ3hkkFoEwA](https://www.youtube.com/watch?v=vQ3hkkFoEwA))
- 2. Order management process in live account ([https://www.youtube.com/watch?v=KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0))
+ 1. New order entry and flip from webhook source in Testnet with PostMan, here I'm using localhost instead of real hostname:<br>
+ ([https://youtu.be/GJJcH7g-6BI](https://youtu.be/GJJcH7g-6BI))
+<br>  
+ 2. Order close with the same:<br>
+ ([https://youtu.be/xlg5rbhLY98](https://youtu.be/xlg5rbhLY98))
+
+ <br>  
+ 3. Order management process in live account:<br>
+ ([https://youtu.be/KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0))
+<br>
 
 ##### Disclaimer: This project is for bug testing requests, extentions and features requests .
 
@@ -129,3 +137,4 @@ You can try to use my testnet instance or create you own either live or testnet 
 
 ### Q&A ###
 Pls reach out to me via email or here
+
