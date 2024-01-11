@@ -1,2 +1,2 @@
-# Thi has been moved to TGtrader
+# This has been moved to TGtrader
 <br>
