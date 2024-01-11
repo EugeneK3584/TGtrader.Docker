@@ -16,11 +16,13 @@ Bot will trade in opposite direction (flip) if it has position opened is similar
 Risk management model I personally follow from my signals channels doesn't provide any averaging down or adding into position at this time <br>
 But you can add into existing position with sending market opder webhook while specifying [average down] instead of [market order] any time.<br>
 
- 1. New order entry and flip from webhook source in Testnet with PostMan, here I'm using localhost instead of real hostname:<br>
+ 1. Installation <br>
+ ([https://youtu.be/9APNx15A-dQ](https://youtu.be/9APNx15A-dQ))
+ 2. New order entry and flip from webhook source in Testnet with PostMan, here I'm using localhost instead of real hostname:<br>
  ([https://youtu.be/GJJcH7g-6BI](https://youtu.be/GJJcH7g-6BI))
- 2. Order close with the same:<br>
+ 3. Order close with the same:<br>
  ([https://youtu.be/xlg5rbhLY98](https://youtu.be/xlg5rbhLY98)) 
- 3. Order management process in live account:<br>
+ 4. Order management process in live account:<br>
  ([https://youtu.be/KCOpB7cqE-0](https://youtu.be/KCOpB7cqE-0))
 <br>
 
